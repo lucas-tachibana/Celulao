@@ -5,6 +5,8 @@
  */
 package celulao;
 
+import Telas.frmTelaPrincipal;
+
 /**
  *
  * @author Naomi
@@ -16,6 +18,7 @@ public class Celulao {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        new frmTelaPrincipal().setVisible(true);
     }
     
 }
